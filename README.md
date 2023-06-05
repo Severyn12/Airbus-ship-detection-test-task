@@ -40,5 +40,6 @@ Bellow you could observe plots, that illustrate the model's performance:
 * **training_pipeline.py** - contains the model's training pipeline. 
 * **inference_pipeline.py** - contains the model's evaluation on the test set pipeline.
 * **Airbus-ship-detection.ipynb** - the notebook file with model training and evaluation.
+* **help_utills.py** - contains the necessary modules and functions for files **training_pipeline.py** and **inference_pipeline.py**.
 
 **NOTE**: before running the **training_pipeline.py** or **inference_pipeline.py** you should specify the correct path to the data. In the case of model **inference_pipeline.py** you should also specify the correct path to the saved model.
